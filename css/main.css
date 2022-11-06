@@ -98,7 +98,7 @@ h2 {
 }
 
 .carousel-item {
-    border: 4px solid #000;
+    border: 4px solid var(--purpleColor);
     border-radius: 4px;
 }
 
@@ -107,6 +107,7 @@ h2 {
     color: #000;
 
 }
+
 
 
 .sponsersCardsContainer {
