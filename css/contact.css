@@ -1,13 +1,50 @@
+html {
+    --purpleColor: #9453a6;
+    --yellowColor: #f2cc0f;
+    --greenColor: #8cbf3f;
+    --cardPurplerBgc: rgba(189, 141, 231, 0.5);
+    --mainTitleFontSize: 6rem;
+    --mainTitleFontFamily: 'Henny Penny', sans-serif;
+    --titlesFontSize: 3rem;
+    --titlesFontFamily: 'Pattaya', sans-serif;
+    --bodyFontSize: 1rem;
+    --bodyFontFamily: 'Roboto', sans-serif;
+
+}
+
+
+.formContainer {
+
+    display: grid;
+    margin: 0 auto;
+}
+
 form {
     margin: 0 auto;
     border: 1px solid #000;
     width: 500px;
     padding: 20px;
     justify-content: center;
-    display: block;
+    background-color: var(--cardPurplerBgc);
+
 }
 
 label {
     display: block;
     margin: 20px 0;
+    color: #fff;
+    text-shadow: #000, 4px, 4px, 4px;
+}
+
+form .btn {
+    color: var(--yellowColor);
+    bottom: 0;
+    border: var(--yellowColor);
+    margin-top: 10px;
+}
+
+form .btn:hover {
+    text-shadow: var(--purpleColor) 2px 2px 2px;
+    cursor: pointer;
+    background-color: #eedd8a;
 }

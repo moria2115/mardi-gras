@@ -64,6 +64,15 @@ h1 {
     -moz-text-fill-color: transparent; */
 }
 
+h2 {
+    font-family: var(--titlesFontFamily);
+    font-size: var(--titlesFontSize);
+    color: var(--yellowColor);
+    text-shadow: var(--purpleColor) 5px 5px 5px;
+    text-align: center;
+    margin: 20px;
+}
+
 .information {
 
     width: 100vw;
