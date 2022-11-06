@@ -1,0 +1,13 @@
+form {
+    margin: 0 auto;
+    border: 1px solid #000;
+    width: 500px;
+    padding: 20px;
+    justify-content: center;
+    display: block;
+}
+
+label {
+    display: block;
+    margin: 20px 0;
+}
