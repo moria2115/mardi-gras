@@ -42,8 +42,8 @@ body {
     background-image: url(../images/background.jpg);
     background-repeat: repeat-y;
     background-position: center;
-    background-size: unset;
-    width: 100vw;
+    background-size: cover;
+    width: 100%;
     height: 100vh;
     font-family: var(--bodyFontFamily);
     font-size: var(--bodyFontSize);
@@ -212,6 +212,6 @@ a.btn:hover {
     /* position: absolute; */
     bottom: 0;
     padding: 20px 0;
-    width: 100vw;
+    width: 100%;
     margin-top: 20px;
 }
