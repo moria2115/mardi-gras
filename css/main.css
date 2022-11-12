@@ -2,7 +2,7 @@ html {
     --purpleColor: #9453a6;
     --yellowColor: #f2cc0f;
     --greenColor: #8cbf3f;
-    --cardPurplerBgc: rgba(204, 234, 146, 0.138);
+    --cardPurplerBgc: #9453a6;
     --mainTitleFontSize: 6rem;
     --mainTitleFontFamily: 'Henny Penny', sans-serif;
     --titlesFontSize: 3rem;
@@ -29,6 +29,8 @@ header {
     height: 100px;
     width: 100px;
 }
+
+
 
 .nav-link {
     margin: 0 30px;
@@ -81,6 +83,7 @@ h2 {
     background-color: var(--cardPurplerBgc);
     margin: 20px auto;
     padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 

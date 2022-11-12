@@ -1,0 +1,73 @@
+html {
+    --purpleColor: #9453a6;
+    --yellowColor: #f2cc0f;
+    --greenColor: #8cbf3f;
+    --cardPurplerBgc: #9453a6;
+    --mainTitleFontSize: 6rem;
+    --mainTitleFontFamily: 'Henny Penny', sans-serif;
+    --titlesFontSize: 3rem;
+    --titlesFontFamily: 'Pattaya', sans-serif;
+    --bodyFontSize: 1rem;
+    --bodyFontFamily: 'Roboto', sans-serif;
+
+}
+
+h4 {
+    font-weight: bold;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+img {
+    height: 150px;
+    width: 200px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.history {
+    width: 70vw;
+    display: flex;
+}
+
+.history img {
+    margin-top: 20%;
+}
+
+
+
+.TraditionalColors {
+    display: flex;
+    background-color: var(--greenColor);
+    border: 1px solid var(--greenColor);
+    height: 60vh;
+    width: 70vw;
+}
+
+
+
+.TraditionalColors img {
+    margin-top: 60%;
+}
+
+.carnivalDay {
+    display: flex;
+    background-color: var(--yellowColor);
+    border: 1px solid var(--yellowColor);
+    width: 70vw;
+}
+
+.carnivalDay img {
+    margin-top: 40%;
+}
+
+.mayor {
+    width: 70vw;
+    display: flex;
+}
+
+.mayor img {
+
+    margin-top: 10%;
+}
