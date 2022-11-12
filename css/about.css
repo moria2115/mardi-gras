@@ -41,7 +41,7 @@ img {
     display: flex;
     background-color: var(--greenColor);
     border: 1px solid var(--greenColor);
-    height: 60vh;
+
     width: 70vw;
 }
 
