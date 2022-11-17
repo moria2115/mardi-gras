@@ -105,6 +105,15 @@ h2 {
     object-fit: cover;
 }
 
+.card {
+    text-align: center;
+}
+
+.card img {
+    height: 150px;
+    object-fit: contain;
+}
+
 /* .carousel {
     margin: 20px auto;
     width: 70vw;
@@ -175,20 +184,20 @@ h2 {
     overflow: hidden;
 } */
 
-
+/* 
 
 .btn {
     margin: 0 25%;
     border: 5px solid;
     color: rgba(250, 250, 250, 0.8);
     /* border-image-slice: 1; */
-    /* background: var(--gradient); */
-    /* background-clip: text; */
-    /* -webkit-text-fill-color: transparent; */
-    /* border-image-source: var(--gradient); */
-    text-decoration: none;
-    transition: all .4s ease;
-}
+/* background: var(--gradient); */
+/* background-clip: text; */
+/* -webkit-text-fill-color: transparent; */
+/* border-image-source: var(--gradient); */
+/* text-decoration: none;
+transition: all .4s ease;
+} */
 
 .btn:hover,
 .btn:focus {
@@ -220,8 +229,7 @@ a.btn:hover {
 
 }
 
-
-.footer {
+*/ .footer {
     background-color: rgb(196, 188, 203);
     /* background-image: linear-gradient(to bottom right, #9453a6, #8cbf3f, #f2cc0f); */
     opacity: 0.7;
