@@ -25,9 +25,7 @@ p {
 
 
 form {
-    margin: 0 auto;
-    border: 1px solid #000;
-
+    border: 1px solid #fff;
     padding: 20px;
     justify-content: center;
     background-color: var(--cardPurplerBgc);
@@ -35,7 +33,7 @@ form {
 }
 
 label {
-    display: block;
+    /* display: block; */
     margin: 20px 0;
     color: #fff;
     text-shadow: #000, 4px, 4px, 4px;
