@@ -78,7 +78,7 @@ h2 {
 
 .information {
 
-    width: 70vw;
+    /* width: 70vw; */
     border: 3px solid var(--purpleColor);
     border-radius: 10px;
     background-color: var(--cardPurplerBgc);
@@ -97,20 +97,29 @@ h2 {
 }
 
 .carousel {
+    border: 1px solid #fff;
+}
+
+.carousel-item img {
+    height: 80vh;
+    object-fit: cover;
+}
+
+/* .carousel {
     margin: 20px auto;
     width: 70vw;
-}
+} */
 
-.carousel-item {
+/* .carousel-item {
     border: 4px solid var(--purpleColor);
     border-radius: 4px;
-}
+} */
 
-.carousel-caption {
+/* .carousel-caption {
     background-color: rgba(216, 201, 237, 0.5);
     color: #000;
 
-}
+} */
 
 /* 
 
@@ -152,7 +161,7 @@ h2 {
 } */
 
 
-.card {
+/* .card {
     background: var(--cardPurplerBgc);
     border: 1px solid var(--yellowColor);
     color: rgba(250, 250, 250, 0.8);
@@ -164,7 +173,7 @@ h2 {
 
 .card img {
     overflow: hidden;
-}
+} */
 
 
 
