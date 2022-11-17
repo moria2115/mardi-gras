@@ -23,16 +23,11 @@ p {
 
 }
 
-.formContainer {
-
-    display: grid;
-    margin: 0 auto;
-}
 
 form {
     margin: 0 auto;
     border: 1px solid #000;
-    width: 500px;
+
     padding: 20px;
     justify-content: center;
     background-color: var(--cardPurplerBgc);
@@ -59,13 +54,10 @@ form .btn:hover {
     background-color: #eedd8a;
 }
 
-.map-container {
-    width: 60vw;
-    margin: auto;
-}
+
 
 #map {
-    width: 60vw;
+
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px,
         rgba(0, 0, 0, 0.12) 0px 4px 6px,
