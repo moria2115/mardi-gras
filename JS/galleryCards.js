@@ -3,15 +3,16 @@ let galleryImages = [
 ];
 
 function galleryCardsBuilder(img) {
-    `<div class="card bg-dark text-white">
-  <img class="card-img" src=${img}alt="Card image">
+    return `<div class="col-md-3 card bg-dark text-white">
+  <img class="card-img" src="${img}" alt="Card image">
 </div>`
 };
 
 
 function getGalleryCard() {
     for (let card of galleryImages) {
-        document.getElementById('gallery').innerHTML += galleryCardsBuilder(card.image)
+        document.getElementById('gallery').innerHTML += galleryCardsBuilder(card);
+        console.log(card);
     }
 };
 
