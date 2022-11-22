@@ -39,7 +39,9 @@ let sponsers = [
         image: './images/sponsers/walkOns.png',
         link: "https://walk-ons.com/",
     },
-]
+];
+
+
 
 function buildSponsersCard(title, img, link) {
 
@@ -59,14 +61,9 @@ function getSponsersCard() {
     for (let card of sponsers) {
         document.querySelector('.coverdata').innerHTML += buildSponsersCard(card.title, card.image, card.link);
     }
-
-    // const cards = sponsers.map(function (card) {
-    //     return buildSponsersCard(card.title, card.img, card.link)
-    // })
-
-    // sponsers.map(card => buildSponsersCard(card.title, card.img, card.link));
-    // console.log(cards);
 }
+
+
 
 
 window.onload = getSponsersCard();

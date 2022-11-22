@@ -1,10 +1,34 @@
-.btn-link {
-    border: none;
+html {
+    --purpleColor: #9453a6;
+    --yellowColor: #f2cc0f;
+    --greenColor: #8cbf3f;
+    --cardPurplerBgc: #9453a6;
+    --mainTitleFontSize: 6rem;
+    --mainTitleFontFamily: 'Henny Penny', sans-serif;
+    --titlesFontSize: 3rem;
+    --titlesFontFamily: 'Pattaya', sans-serif;
+    --bodyFontSize: 1rem;
+    --bodyFontFamily: 'Roboto', sans-serif;
+    --gradient: linear-gradient(to left top, #f2cc0f 10%, #8cbf3f 90%);
 
 }
 
-.btn-link:hover,
-.btn-link:focus {
+
+.accordion .btn-link {
+    border: none;
+    text-decoration: none;
+    font-family: var(--bodyFontFamily);
+    font-size: var(--bodyFontSize);
+    color: var(--greenColor);
+    text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px,
+        rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px,
+        rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.accordion .btn-link:hover,
+.accordion.btn-link:focus {
     text-decoration: none;
     border: none;
 }
