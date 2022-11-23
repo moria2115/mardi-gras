@@ -12,7 +12,6 @@ function galleryCardsBuilder(img) {
 function getGalleryCard() {
     for (let card of galleryImages) {
         document.getElementById('gallery').innerHTML += galleryCardsBuilder(card);
-        console.log(card);
     }
 };
 
