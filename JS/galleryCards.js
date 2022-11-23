@@ -4,7 +4,7 @@ let galleryImages = [
 
 function galleryCardsBuilder(img) {
     return `<div class="col-md-3 mt-2">
-  <img class="card-img" src="${img}" alt="Card image">
+  <img onclick class="card-img" src="${img}" alt="Card image">
 </div>`
 };
 
@@ -15,5 +15,11 @@ function getGalleryCard() {
         console.log(card);
     }
 };
+
+// function showImages(i) {
+//     // document.querySelector('.modal-body').innerHTML = "";
+//     document.querySelector('.modal-body').innerHTML += `<img src="${galleryImages[i]}>`;
+
+// }
 
 window.onload = getGalleryCard();
