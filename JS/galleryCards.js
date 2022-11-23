@@ -3,7 +3,7 @@ let galleryImages = [
 ];
 
 function galleryCardsBuilder(img) {
-    return `<div class="col-md-3 card bg-dark text-white">
+    return `<div class="col-md-3 mt-2">
   <img class="card-img" src="${img}" alt="Card image">
 </div>`
 };
