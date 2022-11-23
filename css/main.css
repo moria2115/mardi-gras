@@ -58,13 +58,7 @@ h1 {
     font-size: var(--mainTitleFontSize);
     color: var(--yellowColor);
     text-shadow: var(--purpleColor) 5px 5px 5px;
-    /* background-color: #f3ec78;
-    background-image: linear-gradient(45deg, #f3ec78, #af4261);
-    background-size: 100%;
-    background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent; */
+
 }
 
 h2 {
