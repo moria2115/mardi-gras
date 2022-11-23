@@ -45,7 +45,7 @@ let sponsers = [
 
 function buildSponsersCard(title, img, link) {
 
-    return `<div class="col-lg-6 col-xl-3 co-xs-6">
+    return `<div class="sponsers col-lg-6 col-xl-3 co-xs-6">
                 <div class="card mx-auto mt-2" >
                     <img src="${img}" class="card-img-top" alt="${title}">
                     <div class="card-body">
