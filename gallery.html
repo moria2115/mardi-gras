@@ -14,57 +14,59 @@
     <link rel="stylesheet" href='./css/main.css'>
     <link rel="stylesheet" href="./css/gallery.css">
 
-    <header>
-        <!-- bootstrap navbar -->
 
-        <div class="navContainer">
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="./index.html"><img class="logo" src="./images/mardiGrasLogo.png"
-                            alt="Mardi Gras Logo"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarScroll">
-                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
-                            style="--bs-scroll-height: 100px;">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href=./gallery.html>Gallery</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./faq.html">FAQ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
 </head>
 
 <body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <header>
+                <!-- bootstrap navbar -->
 
-    <!-- image gallery bootstrap cards -->
+                <div class="navContainer">
+                    <nav class="navbar navbar-expand-lg bg-light">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="./index.html"><img class="logo"
+                                    src="./images/mardiGrasLogo.png" alt="Mardi Gras Logo"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarScroll">
+                                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                                    style="--bs-scroll-height: 100px;">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="./about.html">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href=./gallery.html>Gallery</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="./faq.html">FAQ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- image gallery bootstrap cards -->
 
-    <h2>Gallery</h2>
-    <div class="container">
-        <div class="row" id="gallery"></div>
-    </div>
+            <h2>Gallery</h2>
+            <div class="container">
+                <div class="row" id="gallery"></div>
+            </div>
 
-    <!-- bootstrap modal -->
+            <!-- bootstrap modal -->
 
-    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
@@ -73,47 +75,49 @@
         </div>
     </div> -->
 
-    <h2>Video's Gallery</h2>
+            <h2>Video's Gallery</h2>
 
-    <div class="container">
-        <div class="row">
-            <div class="embed-responsive embed-responsive-16by9 col-md-6 mt-2">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Sw_OgnXm2pE"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+            <div class="container">
+                <div class="row">
+                    <div class="embed-responsive embed-responsive-16by9 col-md-6 mt-2">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Sw_OgnXm2pE"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9 col-md-6 mt-2">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/C8mJ2C2cbd0"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9 col-md-6 mt-2">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/EkIZwXbSh-Y"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9 col-md-6 mt-2">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dqGoUQm9P9E"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                </div>
             </div>
-            <div class="embed-responsive embed-responsive-16by9 col-md-6 mt-2">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/C8mJ2C2cbd0"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="embed-responsive embed-responsive-16by9 col-md-6 mt-2">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/EkIZwXbSh-Y"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="embed-responsive embed-responsive-16by9 col-md-6 mt-2">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/dqGoUQm9P9E"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
+
+
+
+
+
+
+            <footer>
+                <div class="footer">
+                    <h6>&copy; Moria Mizrachi</h6>
+                </div>
+            </footer>
         </div>
     </div>
-
-
-
-
-
-
-    <footer>
-        <div class="footer">
-            <h6>&copy; Moria Mizrachi</h6>
-        </div>
-    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
         integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
