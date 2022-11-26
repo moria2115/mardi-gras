@@ -64,6 +64,8 @@ function getSponsersCard() {
 }
 
 
+function init() {
+    getSponsersCard();
+}
 
-
-window.onload = getSponsersCard();
+window.onload = init();

@@ -18,4 +18,8 @@ function showImages(index) {
     document.getElementById('elem').src = galleryImages[index];
 }
 
-window.onload = getGalleryCard();
+function init() {
+    getGalleryCard();
+}
+
+window.onload = init();
