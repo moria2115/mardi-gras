@@ -111,7 +111,6 @@ h2 {
     background: var(--gradient);
     background-clip: none;
     -webkit-text-fill-color: #fff;
-    border: 5px solid #fff;
     box-shadow: #222 1px 0 10px;
     text-decoration: underline;
 }
